@@ -7,9 +7,10 @@ enum SECTION  {
     D
 }
 
+
 public class Student {
-    private static int studentId;
-    private String name;
-    private String grade;
-    private SECTION section;
+    public static int studentId;
+    public String name;
+    public String grade;
+    public SECTION section;
 }
